@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-links li {
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s;
+}
+.nav-links li:hover {
+    color: black;
+}
+.resume-button {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.resume-button:hover {
+    background-color: #333;
+}
+
+/* HERO SECTION */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: white;
+    flex-wrap: wrap;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.hero-text p {
+    color: #666;
+    margin-top: 10px;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.social-icons i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.social-icons i:hover {
+    color: #007bff;
+}
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* SKILLS */
+.skills-section {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.skill-box {
+    background: white;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.skill-box:hover {
+    background: black;
+    color: white;
+}
+
+/* EXPERIENCE */
+.experience-section {
+    text-align: center;
+    padding: 50px;
+    background: black;
+    color: white;
+}
+.experience-container {
+    max-width: 900px;
+    margin: auto;
+}
+.experience-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.experience-card i {
+    font-size: 24px;
+    margin-right: 10px;
+}
